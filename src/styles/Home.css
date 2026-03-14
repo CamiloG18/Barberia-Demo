@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+
+}
+
+image::before {
+  content: "";
+  background-attachment: fixed;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(3,25,38,0.2);
+  z-index: 0;
+  pointer-events: none;
+}
+.image {
+  background-image: url('https://images.unsplash.com/photo-1621605815971-fbc98d665033');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 7vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 0.85;
+  letter-spacing: 0.02em;
+  text-shadow: 2px 2px 12px #031926cc;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.top-left {
+  top: 5vw;
+  left: 5vw;
+  opacity: 0;
+  transform: translateX(-120%);
+  animation: slideInLeft 1.1s cubic-bezier(.6,.01,.39,.99) 0.2s forwards;
+}
+
+.bottom-right {
+  bottom: 5vw;
+  right: 5vw;
+  opacity: 0;
+  transform: translateX(120%);
+  animation: slideInRight 1.1s cubic-bezier(.6,.01,.39,.99) 0.4s forwards;
+}
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slideInRight {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
