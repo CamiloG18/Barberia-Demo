@@ -4,7 +4,7 @@ function Home() {
   return (
     <div id="home" className="image">
      <div className="hero-title top-left">No eres tu</div>
-     <div className="hero-title bottom-right">es tu corte2</div>
+     <div className="hero-title bottom-right">es tu corte</div>
     </div>
   );
 }

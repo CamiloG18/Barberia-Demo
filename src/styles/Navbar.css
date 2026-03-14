@@ -76,4 +76,120 @@
   }
 }
 
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1001;
+  margin-right: 20px;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 4px;
+  background-color: var(--beige-claro);
+  margin: 3.2px 0;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+}
+
+.hamburger .bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(8px, 8px);
+}
+
+.hamburger .bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger .bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Responsive Menu */
+@media (max-width: 720px) {
+  .navbar {
+    grid-template-columns: 1fr auto;
+    padding: 0 10px;
+  }
+
+  .hamburger {
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .options {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: var(--marron-oscuro);
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    opacity: 0;
+    animation: none;
+    transform: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .options.active {
+    max-height: 400px;
+    opacity: 1;
+  }
+
+  .options a {
+    padding: 20px 30px;
+    border-radius: 0;
+    border-bottom: 1px solid var(--marron-medio);
+    text-align: left;
+  }
+
+  .options a:hover {
+    background: var(--marron-medio);
+    color: var(--dorado-suave);
+  }
+
+  .options .mobile-reserve {
+    background: var(--dorado-suave);
+    color: var(--marron-oscuro);
+    font-weight: 900;
+    margin: 10px 20px;
+    border-radius: 6px;
+    text-align: center;
+    border-bottom: none;
+  }
+
+  .options .mobile-reserve:hover {
+    background: var(--marron-medio);
+    color: var(--beige-claro);
+  }
+
+  .reserve {
+    display: none;
+  }
+
+  .mobile-reserve {
+    display: block;
+  }
+}
+
+/* Ocultar mobile-reserve en desktop */
+@media (min-width: 721px) {
+  .mobile-reserve {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 15px;
+  }
+}
+
 

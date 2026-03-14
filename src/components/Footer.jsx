@@ -49,7 +49,7 @@ function Footer() {
       <div className="footer-bottom">
         <p>© 2026 {business.name}. Todos los derechos reservados.</p>
         <div className="developer-contact">
-          <p>¿Te gustó esta página? <a href="https://wa.me/573001234567?text=Hola,%20me%20interesa%20tener%20una%20página%20web%20para%20mi%20negocio" target="_blank" rel="noopener noreferrer">Contáctame para crear la tuya</a></p>
+          <p>¿Te gustó esta página? <a href="https://wa.me/573043253309?text=Hola!%0AEstoy%20interesado%20en%20que%20me%20hagas%20una%20página%20para%20mi%20negocio" target="_blank" rel="noopener noreferrer">Contáctame para crear la tuya</a></p>
         </div>
       </div>
     </footer>

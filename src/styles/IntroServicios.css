@@ -20,12 +20,133 @@
     justify-self: center;
   }
 }
+
+@media (max-width: 880px) {
+  .intro-col {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .headline-negocio {
+    width: 100%;
+  }
+  
+  .negocio-desc {
+    max-width: 100%;
+  }
+  
+  .servicios-grid {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .intro-servicios.grid-hero {
+    padding: 4% 5% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .intro-col {
+    gap: 3% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 2% !important;
+  }
+  
+  .negocio-nombre {
+    font-size: 2.5vw !important;
+    letter-spacing: 0.1em !important;
+  }
+  
+  .headline-negocio {
+    width: 100% !important;
+  }
+  
+  .headline-negocio h2 {
+    font-size: 5vw !important;
+    line-height: 1.15 !important;
+    letter-spacing: 0.02em !important;
+    word-wrap: break-word !important;
+  }
+  
+  .negocio-desc {
+    font-size: 3vw !important;
+    line-height: 1.4 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .servicios-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 3% !important;
+    width: 100% !important;
+  }
+  
+  .servicio-card {
+    font-size: 3.5vw !important;
+    min-height: 15vw !important;
+    min-width: 0 !important;
+    padding: 3% 4% !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro-servicios.grid-hero {
+    padding: 3% 4% !important;
+    width: 100% !important;
+  }
+  
+  .intro-col {
+    min-width: 0 !important;
+    gap: 4% !important;
+    width: 100% !important;
+    padding: 0 3% !important;
+  }
+  
+  .negocio-nombre {
+    font-size: 3vw !important;
+    letter-spacing: 0.05em !important;
+  }
+  
+  .headline-negocio h2 {
+    font-size: 6vw !important;
+    line-height: 1.2 !important;
+    letter-spacing: 0 !important;
+    word-wrap: break-word !important;
+  }
+  
+  .negocio-desc {
+    font-size: 3.5vw !important;
+    line-height: 1.35 !important;
+    width: 100% !important;
+  }
+  
+  .servicios-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 3% !important;
+    width: 100% !important;
+  }
+  
+  .servicio-card {
+    font-size: 3.2vw !important;
+    min-height: 15vw !important;
+    min-width: 0 !important;
+    padding: 3% 4% !important;
+    word-wrap: break-word !important;
+    width: 100% !important;
+  }
+}
 .intro-col {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 36px;
-  min-width: 260px;
   max-width: 600px;
   opacity: 0;
   transform: translateX(-80px);
@@ -78,7 +199,6 @@
   border: 2px solid transparent;
   cursor: pointer;
   min-height: 90px;
-  min-width: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,7 +254,6 @@
   flex-direction: column;
   gap: 18px;
   align-items: flex-start;
-  min-width: 210px;
 }
 .servicios-lista li {
   background: var(--gris-madera);
@@ -147,7 +266,8 @@
 }
 .intro-servicios img {
   height: auto;
-  max-width: 700px;
+  max-width: 100%;
+  width: 100%;
   border-radius: 12px;
   box-shadow: 0 4px 16px 0 rgba(58,45,32,0.13);
   object-fit: cover;
