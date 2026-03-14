@@ -26,7 +26,7 @@ function IntroServicios() {
         </div>
       </div>
       <div className="img-col">
-        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1" alt="Barbería" />
+        <img src={new URL('../assets/introservicios.webp', import.meta.url).href} alt="Barbería" />
       </div>
       <div className="estadisticas-section">
         <div className="estadistica-item">
