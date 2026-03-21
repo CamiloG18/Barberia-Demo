@@ -1,20 +1,15 @@
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import IntroServicios from "./components/IntroServicios";
-import Ubicacion from "./components/Ubicacion";
-import WhatsappFloat from "./components/WhatsappFloat";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import DemosHome from './pages/DemosHome';
+import BarberiaTemplate from './templates/barberia/BarberiaTemplate';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Home />
-      <IntroServicios />
-      <Ubicacion />
-      <WhatsappFloat />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<DemosHome />} />
+        <Route path="/barberia" element={<BarberiaTemplate />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
