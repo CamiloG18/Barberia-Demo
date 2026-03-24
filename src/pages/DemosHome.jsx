@@ -1,7 +1,11 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './DemosHome.css';
 
 function DemosHome() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const templates = [
     {
       id: 'barberia',

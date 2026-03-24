@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./styles/global-premium.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -8,6 +9,10 @@ import Reserva from "./components/Reserva";
 import Footer from "./components/Footer";
 
 function BarberiaPremiumTemplate() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="barberia-premium-template">
       <Navbar />
