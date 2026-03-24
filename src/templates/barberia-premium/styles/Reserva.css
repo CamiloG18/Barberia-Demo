@@ -1,0 +1,105 @@
+.reserva-premium {
+  background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+  padding: 6rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.reserva-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.reserva-header {
+  margin-bottom: 3rem;
+}
+
+.reserva-title {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.reserva-subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #c59d5f;
+  margin-bottom: 1.5rem;
+}
+
+.reserva-description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #cccccc;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.reserva-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reserva-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.2rem 2.5rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border: 2px solid;
+}
+
+.whatsapp-btn {
+  background: #25D366;
+  color: #ffffff;
+  border-color: #25D366;
+}
+
+.whatsapp-btn:hover {
+  background: #20BA5A;
+  border-color: #20BA5A;
+}
+
+.whatsapp-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+.online-btn {
+  background: #c59d5f;
+  color: #000000;
+  border-color: #c59d5f;
+}
+
+.online-btn:hover {
+  background: transparent;
+  color: #c59d5f;
+}
+
+@media (max-width: 768px) {
+  .reserva-title {
+    font-size: 2.2rem;
+  }
+
+  .reserva-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .reserva-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .reserva-btn {
+    justify-content: center;
+  }
+}

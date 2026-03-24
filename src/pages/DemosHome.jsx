@@ -19,7 +19,7 @@ function DemosHome() {
       path: '/barberia-premium',
       image: '/previews/barberia-premium.jpg',
       category: 'Servicios',
-      status: 'Próximamente'
+      status: 'Disponible'
     },
     {
       id: 'hotel',
