@@ -1,4 +1,4 @@
-.navbar-premium {
+.barberia-premium-template .navbar-premium {
   position: fixed;
   top: 0;
   left: 0;
@@ -9,7 +9,7 @@
   border-bottom: 1px solid rgba(197, 157, 95, 0.2);
 }
 
-.navbar-container {
+.barberia-premium-template .navbar-container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 1.2rem 2rem;
@@ -18,20 +18,20 @@
   align-items: center;
 }
 
-.logo-premium {
+.barberia-premium-template .logo-premium {
   display: flex;
   flex-direction: column;
   line-height: 1;
 }
 
-.logo-text {
+.barberia-premium-template .logo-text {
   font-size: 1.5rem;
   font-weight: 300;
   color: #c59d5f;
   letter-spacing: 0.1em;
 }
 
-.logo-subtitle {
+.barberia-premium-template .logo-subtitle {
   font-size: 0.7rem;
   font-weight: 700;
   color: #ffffff;
@@ -39,13 +39,13 @@
   margin-top: 0.2rem;
 }
 
-.nav-links-premium {
+.barberia-premium-template .nav-links-premium {
   display: flex;
   gap: 2.5rem;
   align-items: center;
 }
 
-.nav-links-premium a {
+.barberia-premium-template .nav-links-premium a {
   color: #ffffff;
   text-decoration: none;
   font-size: 0.85rem;
@@ -55,7 +55,7 @@
   position: relative;
 }
 
-.nav-links-premium a::after {
+.barberia-premium-template .nav-links-premium a::after {
   content: '';
   position: absolute;
   bottom: -5px;
@@ -66,19 +66,19 @@
   transition: width 0.3s ease;
 }
 
-.nav-links-premium a:hover {
+.barberia-premium-template .nav-links-premium a:hover {
   color: #c59d5f;
 }
 
-.nav-links-premium a:hover::after {
+.barberia-premium-template .nav-links-premium a:hover::after {
   width: 100%;
 }
 
-.cta-button-container {
+.barberia-premium-template .cta-button-container {
   display: flex;
 }
 
-.cta-button-premium {
+.barberia-premium-template .cta-button-premium {
   background: #c59d5f;
   color: #000000;
   padding: 0.8rem 1.8rem;
@@ -91,12 +91,12 @@
   border: 1px solid #c59d5f;
 }
 
-.cta-button-premium:hover {
+.barberia-premium-template .cta-button-premium:hover {
   background: transparent;
   color: #c59d5f;
 }
 
-.hamburger-premium {
+.barberia-premium-template .hamburger-premium {
   display: none;
   flex-direction: column;
   gap: 5px;
@@ -106,27 +106,27 @@
   padding: 0.5rem;
 }
 
-.bar-premium {
+.barberia-premium-template .bar-premium {
   width: 25px;
   height: 2px;
   background: #c59d5f;
   transition: all 0.3s ease;
 }
 
-.bar-premium.open:nth-child(1) {
+.barberia-premium-template .bar-premium.open:nth-child(1) {
   transform: rotate(45deg) translate(7px, 7px);
 }
 
-.bar-premium.open:nth-child(2) {
+.barberia-premium-template .bar-premium.open:nth-child(2) {
   opacity: 0;
 }
 
-.bar-premium.open:nth-child(3) {
+.barberia-premium-template .bar-premium.open:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -7px);
 }
 
 @media (max-width: 900px) {
-  .nav-links-premium {
+  .barberia-premium-template .nav-links-premium {
     position: fixed;
     top: 70px;
     left: 0;
@@ -140,15 +140,15 @@
     border-top: 1px solid rgba(197, 157, 95, 0.2);
   }
 
-  .nav-links-premium.active {
+  .barberia-premium-template .nav-links-premium.active {
     transform: translateX(0);
   }
 
-  .hamburger-premium {
+  .barberia-premium-template .hamburger-premium {
     display: flex;
   }
 
-  .cta-button-container {
+  .barberia-premium-template .cta-button-container {
     display: none;
   }
 }

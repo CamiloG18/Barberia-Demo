@@ -1,20 +1,20 @@
-.reserva-premium {
+.barberia-premium-template .reserva-premium {
   background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
   padding: 6rem 2rem;
   text-align: center;
   color: white;
 }
 
-.reserva-content {
+.barberia-premium-template .reserva-content {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.reserva-header {
+.barberia-premium-template .reserva-header {
   margin-bottom: 3rem;
 }
 
-.reserva-title {
+.barberia-premium-template .reserva-title {
   font-size: 3rem;
   font-weight: 300;
   letter-spacing: 0.1em;
@@ -22,14 +22,14 @@
   color: #ffffff;
 }
 
-.reserva-subtitle {
+.barberia-premium-template .reserva-subtitle {
   font-size: 1.5rem;
   font-style: italic;
   color: #c59d5f;
   margin-bottom: 1.5rem;
 }
 
-.reserva-description {
+.barberia-premium-template .reserva-description {
   font-size: 1.05rem;
   line-height: 1.8;
   color: #cccccc;
@@ -37,14 +37,14 @@
   margin: 0 auto;
 }
 
-.reserva-buttons {
+.barberia-premium-template .reserva-buttons {
   display: flex;
   gap: 1.5rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.reserva-btn {
+.barberia-premium-template .reserva-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.8rem;
@@ -58,48 +58,48 @@
   border: 2px solid;
 }
 
-.whatsapp-btn {
+.barberia-premium-template .whatsapp-btn {
   background: #25D366;
   color: #ffffff;
   border-color: #25D366;
 }
 
-.whatsapp-btn:hover {
+.barberia-premium-template .whatsapp-btn:hover {
   background: #20BA5A;
   border-color: #20BA5A;
 }
 
-.whatsapp-btn svg {
+.barberia-premium-template .whatsapp-btn svg {
   width: 24px;
   height: 24px;
 }
 
-.online-btn {
+.barberia-premium-template .online-btn {
   background: #c59d5f;
   color: #000000;
   border-color: #c59d5f;
 }
 
-.online-btn:hover {
+.barberia-premium-template .online-btn:hover {
   background: transparent;
   color: #c59d5f;
 }
 
 @media (max-width: 768px) {
-  .reserva-title {
+  .barberia-premium-template .reserva-title {
     font-size: 2.2rem;
   }
 
-  .reserva-subtitle {
+  .barberia-premium-template .reserva-subtitle {
     font-size: 1.2rem;
   }
 
-  .reserva-buttons {
+  .barberia-premium-template .reserva-buttons {
     flex-direction: column;
     align-items: stretch;
   }
 
-  .reserva-btn {
+  .barberia-premium-template .reserva-btn {
     justify-content: center;
   }
 }

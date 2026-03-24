@@ -1,11 +1,11 @@
-.footer-premium {
+.barberia-premium-template .footer-premium {
   background: #000000;
   color: #ffffff;
   padding: 4rem 2rem 2rem;
   border-top: 1px solid rgba(197, 157, 95, 0.2);
 }
 
-.footer-content {
+.barberia-premium-template .footer-content {
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
@@ -14,7 +14,7 @@
   margin-bottom: 3rem;
 }
 
-.footer-section h4 {
+.barberia-premium-template .footer-section h4 {
   color: #c59d5f;
   font-size: 0.9rem;
   letter-spacing: 0.15em;
@@ -22,21 +22,21 @@
   font-weight: 700;
 }
 
-.footer-logo {
+.barberia-premium-template .footer-logo {
   display: flex;
   flex-direction: column;
   line-height: 1;
   margin-bottom: 1rem;
 }
 
-.footer-logo-text {
+.barberia-premium-template .footer-logo-text {
   font-size: 1.8rem;
   font-weight: 300;
   color: #c59d5f;
   letter-spacing: 0.1em;
 }
 
-.footer-logo-subtitle {
+.barberia-premium-template .footer-logo-subtitle {
   font-size: 0.8rem;
   font-weight: 700;
   color: #ffffff;
@@ -44,36 +44,36 @@
   margin-top: 0.3rem;
 }
 
-.footer-tagline {
+.barberia-premium-template .footer-tagline {
   color: #cccccc;
   font-size: 0.95rem;
   line-height: 1.6;
   margin-top: 1rem;
 }
 
-.footer-section ul {
+.barberia-premium-template .footer-section ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer-section ul li {
+.barberia-premium-template .footer-section ul li {
   margin-bottom: 0.8rem;
 }
 
-.footer-section ul li a {
+.barberia-premium-template .footer-section ul li a {
   color: #cccccc;
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.3s ease;
 }
 
-.footer-section ul li a:hover {
+.barberia-premium-template .footer-section ul li a:hover {
   color: #c59d5f;
 }
 
-.footer-contact li,
-.footer-hours li {
+.barberia-premium-template .footer-contact li,
+.barberia-premium-template .footer-hours li {
   display: flex;
   align-items: flex-start;
   gap: 0.8rem;
@@ -82,7 +82,7 @@
   line-height: 1.6;
 }
 
-.footer-contact svg {
+.barberia-premium-template .footer-contact svg {
   width: 18px;
   height: 18px;
   color: #c59d5f;
@@ -90,13 +90,13 @@
   margin-top: 0.2rem;
 }
 
-.footer-social {
+.barberia-premium-template .footer-social {
   display: flex;
   gap: 1rem;
   margin-top: 1.5rem;
 }
 
-.footer-social a {
+.barberia-premium-template .footer-social a {
   width: 40px;
   height: 40px;
   border: 1px solid rgba(197, 157, 95, 0.3);
@@ -107,23 +107,23 @@
   transition: all 0.3s ease;
 }
 
-.footer-social a:hover {
+.barberia-premium-template .footer-social a:hover {
   background: #c59d5f;
   border-color: #c59d5f;
 }
 
-.footer-social svg {
+.barberia-premium-template .footer-social svg {
   width: 18px;
   height: 18px;
   color: #c59d5f;
   transition: color 0.3s ease;
 }
 
-.footer-social a:hover svg {
+.barberia-premium-template .footer-social a:hover svg {
   color: #000000;
 }
 
-.footer-bottom {
+.barberia-premium-template .footer-bottom {
   max-width: 1400px;
   margin: 0 auto;
   padding-top: 2rem;
@@ -135,30 +135,30 @@
   gap: 1rem;
 }
 
-.footer-bottom p {
+.barberia-premium-template .footer-bottom p {
   color: #888888;
   font-size: 0.85rem;
   margin: 0;
 }
 
-.footer-developer a {
+.barberia-premium-template .footer-developer a {
   color: #c59d5f;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
-.footer-developer a:hover {
+.barberia-premium-template .footer-developer a:hover {
   color: #d4b070;
 }
 
 @media (max-width: 768px) {
-  .footer-content {
+  .barberia-premium-template .footer-content {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
 
-  .footer-bottom {
+  .barberia-premium-template .footer-bottom {
     flex-direction: column;
     text-align: center;
   }

@@ -1,4 +1,4 @@
-.hero-premium {
+.barberia-premium-template .hero-premium {
   position: relative;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
@@ -10,7 +10,7 @@
   padding: 6rem 2rem 4rem;
 }
 
-.hero-overlay {
+.barberia-premium-template .hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -19,14 +19,14 @@
   background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
 }
 
-.hero-content {
+.barberia-premium-template .hero-content {
   position: relative;
   z-index: 10;
   text-align: center;
   max-width: 900px;
 }
 
-.hero-badge {
+.barberia-premium-template .hero-badge {
   display: inline-block;
   border: 1px solid #c59d5f;
   padding: 0.6rem 1.5rem;
@@ -37,7 +37,7 @@
   font-weight: 600;
 }
 
-.hero-title {
+.barberia-premium-template .hero-title {
   font-size: 4.5rem;
   font-weight: 300;
   letter-spacing: 0.05em;
@@ -48,7 +48,7 @@
   z-index: 20;
 }
 
-.hero-subtitle {
+.barberia-premium-template .hero-subtitle {
   display: block;
   font-style: italic;
   font-weight: 400;
@@ -57,7 +57,7 @@
   text-transform: lowercase;
 }
 
-.hero-description {
+.barberia-premium-template .hero-description {
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 3rem;
@@ -67,7 +67,7 @@
   margin-right: auto;
 }
 
-.hero-cta {
+.barberia-premium-template .hero-cta {
   display: inline-block;
   background: #c59d5f;
   color: #000000;
@@ -82,12 +82,12 @@
   margin-bottom: 4rem;
 }
 
-.hero-cta:hover {
+.barberia-premium-template .hero-cta:hover {
   background: transparent;
   color: #c59d5f;
 }
 
-.hero-features {
+.barberia-premium-template .hero-features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
@@ -98,21 +98,21 @@
   z-index: 5;
 }
 
-.hero-feature {
+.barberia-premium-template .hero-feature {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
   text-align: left;
 }
 
-.feature-icon {
+.barberia-premium-template .feature-icon {
   width: 40px;
   height: 40px;
   color: #c59d5f;
   flex-shrink: 0;
 }
 
-.hero-feature strong {
+.barberia-premium-template .hero-feature strong {
   display: block;
   font-size: 0.9rem;
   letter-spacing: 0.1em;
@@ -120,26 +120,26 @@
   color: #c59d5f;
 }
 
-.hero-feature p {
+.barberia-premium-template .hero-feature p {
   font-size: 0.85rem;
   opacity: 0.8;
   margin: 0;
 }
 
 @media (max-width: 768px) {
-  .hero-title {
+  .barberia-premium-template .hero-title {
     font-size: 2.5rem;
   }
 
-  .hero-subtitle {
+  .barberia-premium-template .hero-subtitle {
     font-size: 2rem;
   }
 
-  .hero-description {
+  .barberia-premium-template .hero-description {
     font-size: 1rem;
   }
 
-  .hero-features {
+  .barberia-premium-template .hero-features {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }

@@ -1,9 +1,9 @@
-.sobre-nosotros-premium {
+.barberia-premium-template .sobre-nosotros-premium {
   background: #ffffff;
   color: #1a1a1a;
 }
 
-.sobre-container {
+.barberia-premium-template .sobre-container {
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
@@ -13,11 +13,11 @@
   align-items: center;
 }
 
-.sobre-image {
+.barberia-premium-template .sobre-image {
   position: relative;
 }
 
-.team-placeholder {
+.barberia-premium-template .team-placeholder {
   background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
   height: 500px;
   border-radius: 8px;
@@ -28,11 +28,11 @@
   font-size: 1.1rem;
 }
 
-.sobre-content {
+.barberia-premium-template .sobre-content {
   padding: 2rem 0;
 }
 
-.sobre-badge {
+.barberia-premium-template .sobre-badge {
   display: inline-block;
   color: #c59d5f;
   font-size: 0.8rem;
@@ -43,7 +43,7 @@
   padding-bottom: 0.5rem;
 }
 
-.sobre-title {
+.barberia-premium-template .sobre-title {
   font-size: 2.8rem;
   font-weight: 300;
   letter-spacing: 0.05em;
@@ -51,20 +51,20 @@
   line-height: 1.2;
 }
 
-.sobre-description {
+.barberia-premium-template .sobre-description {
   font-size: 1.05rem;
   line-height: 1.8;
   color: #555555;
   margin-bottom: 2rem;
 }
 
-.sobre-features {
+.barberia-premium-template .sobre-features {
   list-style: none;
   padding: 0;
   margin: 0 0 2.5rem 0;
 }
 
-.sobre-features li {
+.barberia-premium-template .sobre-features li {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -73,14 +73,14 @@
   color: #333333;
 }
 
-.sobre-features svg {
+.barberia-premium-template .sobre-features svg {
   width: 24px;
   height: 24px;
   color: #c59d5f;
   flex-shrink: 0;
 }
 
-.sobre-cta {
+.barberia-premium-template .sobre-cta {
   display: inline-block;
   background: #1a1a1a;
   color: #ffffff;
@@ -94,12 +94,12 @@
   border: 2px solid #1a1a1a;
 }
 
-.sobre-cta:hover {
+.barberia-premium-template .sobre-cta:hover {
   background: transparent;
   color: #1a1a1a;
 }
 
-.stats-bar {
+.barberia-premium-template .stats-bar {
   background: #1a1a1a;
   padding: 3rem 2rem;
   display: grid;
@@ -108,11 +108,11 @@
   text-align: center;
 }
 
-.stat-item {
+.barberia-premium-template .stat-item {
   color: white;
 }
 
-.stat-number {
+.barberia-premium-template .stat-number {
   font-size: 3rem;
   font-weight: 700;
   color: #c59d5f;
@@ -120,24 +120,24 @@
   letter-spacing: 0.05em;
 }
 
-.stat-label {
+.barberia-premium-template .stat-label {
   font-size: 0.9rem;
   color: #cccccc;
   letter-spacing: 0.1em;
 }
 
 @media (max-width: 900px) {
-  .sobre-container {
+  .barberia-premium-template .sobre-container {
     grid-template-columns: 1fr;
     gap: 3rem;
     padding: 4rem 2rem;
   }
 
-  .sobre-title {
+  .barberia-premium-template .sobre-title {
     font-size: 2.2rem;
   }
 
-  .stats-bar {
+  .barberia-premium-template .stats-bar {
     grid-template-columns: 1fr;
     gap: 2rem;
   }

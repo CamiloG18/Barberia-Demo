@@ -1,15 +1,15 @@
-.galeria-premium {
+.barberia-premium-template .galeria-premium {
   background: #0a0a0a;
   padding: 6rem 2rem;
   color: white;
 }
 
-.galeria-header {
+.barberia-premium-template .galeria-header {
   text-align: center;
   margin-bottom: 4rem;
 }
 
-.galeria-grid {
+.barberia-premium-template .galeria-grid {
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
@@ -17,7 +17,7 @@
   gap: 1.5rem;
 }
 
-.galeria-item {
+.barberia-premium-template .galeria-item {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -26,11 +26,11 @@
   transition: transform 0.3s ease;
 }
 
-.galeria-item:hover {
+.barberia-premium-template .galeria-item:hover {
   transform: scale(1.05);
 }
 
-.galeria-placeholder {
+.barberia-premium-template .galeria-placeholder {
   width: 100%;
   height: 100%;
   background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
@@ -40,7 +40,7 @@
   position: relative;
 }
 
-.galeria-placeholder::before {
+.barberia-premium-template .galeria-placeholder::before {
   content: '';
   position: absolute;
   top: 0;
@@ -50,7 +50,7 @@
   background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
 }
 
-.galeria-placeholder span {
+.barberia-premium-template .galeria-placeholder span {
   position: relative;
   z-index: 10;
   color: #c59d5f;
@@ -61,7 +61,7 @@
 }
 
 @media (max-width: 768px) {
-  .galeria-grid {
+  .barberia-premium-template .galeria-grid {
     grid-template-columns: 1fr;
   }
 }

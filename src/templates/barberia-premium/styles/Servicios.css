@@ -1,15 +1,15 @@
-.servicios-premium {
+.barberia-premium-template .servicios-premium {
   background: #0a0a0a;
   padding: 6rem 2rem;
   color: white;
 }
 
-.servicios-header {
+.barberia-premium-template .servicios-header {
   text-align: center;
   margin-bottom: 4rem;
 }
 
-.section-divider {
+.barberia-premium-template .section-divider {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,25 +17,25 @@
   margin-bottom: 1.5rem;
 }
 
-.divider-line {
+.barberia-premium-template .divider-line {
   width: 60px;
   height: 1px;
   background: #c59d5f;
 }
 
-.divider-icon {
+.barberia-premium-template .divider-icon {
   color: #c59d5f;
   font-size: 1.2rem;
 }
 
-.section-title {
+.barberia-premium-template .section-title {
   font-size: 2.5rem;
   font-weight: 300;
   letter-spacing: 0.15em;
   color: #ffffff;
 }
 
-.servicios-grid {
+.barberia-premium-template .servicios-grid {
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
@@ -43,7 +43,7 @@
   gap: 2rem;
 }
 
-.servicio-card-premium {
+.barberia-premium-template .servicio-card-premium {
   background: #1a1a1a;
   border-radius: 8px;
   overflow: hidden;
@@ -51,12 +51,12 @@
   border: 1px solid rgba(197, 157, 95, 0.1);
 }
 
-.servicio-card-premium:hover {
+.barberia-premium-template .servicio-card-premium:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 30px rgba(197, 157, 95, 0.2);
 }
 
-.servicio-image-placeholder {
+.barberia-premium-template .servicio-image-placeholder {
   position: relative;
   height: 280px;
   background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
@@ -65,12 +65,12 @@
   justify-content: center;
 }
 
-.servicio-overlay {
+.barberia-premium-template .servicio-overlay {
   text-align: center;
   padding: 2rem;
 }
 
-.servicio-overlay h3 {
+.barberia-premium-template .servicio-overlay h3 {
   font-size: 1.8rem;
   font-weight: 300;
   letter-spacing: 0.1em;
@@ -78,24 +78,24 @@
   color: #c59d5f;
 }
 
-.servicio-price {
+.barberia-premium-template .servicio-price {
   font-size: 1.1rem;
   color: #ffffff;
   font-weight: 600;
 }
 
-.servicio-info {
+.barberia-premium-template .servicio-info {
   padding: 1.5rem;
 }
 
-.servicio-info p {
+.barberia-premium-template .servicio-info p {
   color: #cccccc;
   line-height: 1.7;
   margin-bottom: 1rem;
   font-size: 0.95rem;
 }
 
-.ver-mas {
+.barberia-premium-template .ver-mas {
   color: #c59d5f;
   text-decoration: none;
   font-size: 0.85rem;
@@ -105,16 +105,16 @@
   transition: color 0.3s ease;
 }
 
-.ver-mas:hover {
+.barberia-premium-template .ver-mas:hover {
   color: #d4b070;
 }
 
 @media (max-width: 768px) {
-  .servicios-grid {
+  .barberia-premium-template .servicios-grid {
     grid-template-columns: 1fr;
   }
 
-  .section-title {
+  .barberia-premium-template .section-title {
     font-size: 2rem;
   }
 }
